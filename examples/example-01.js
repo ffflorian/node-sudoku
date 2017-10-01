@@ -17,3 +17,4 @@ solver.draw(solver.board);
 const solved = solver.solveSudoku();
 
 solver.draw(solved);
+console.log(solved);
