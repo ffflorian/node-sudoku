@@ -1,0 +1,28 @@
+{
+  "name": "node-sudoku",
+  "version": "1.0.0",
+  "description": "NPM package to solve sudokus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "_mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusgn90/node-sudoku.git"
+  },
+  "keywords": [
+    "ES6",
+    "ES7",
+    "Node.js"
+  ],
+  "author": "Jesús Ángel González Novez",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jesusgn90/node-sudoku/issues"
+  },
+  "homepage": "https://github.com/jesusgn90/node-sudoku#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
