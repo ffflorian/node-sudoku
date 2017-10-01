@@ -1,5 +1,10 @@
 # sudoku-solver
 
+[![https://travis-ci.org/jesusgn90/node-sudoku.svg?branch=master](https://travis-ci.org/jesusgn90/node-sudoku.svg?branch=master)](https://travis-ci.org/jesusgn90/node-sudoku.svg?branch=master)
+[![https://img.shields.io/npm/v/node-sudoku.svg](https://img.shields.io/npm/v/node-sudoku.svg)](https://www.npmjs.com/package/node-sudoku)
+[![https://img.shields.io/npm/dm/node-sudoku.svg](https://img.shields.io/npm/dm/node-sudoku.svg)](https://www.npmjs.com/package/node-sudoku)
+
+
 NPM package to solve sudokus. Both algorithm and test file are based
 on the link bellow:
 
