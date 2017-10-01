@@ -10,6 +10,8 @@ on the link bellow:
 
 - [https://www.codefellows.org/blog/sudoku-solver-from-scratch-in-javascript-tdd-style-a-tutorial/](https://www.codefellows.org/blog/sudoku-solver-from-scratch-in-javascript-tdd-style-a-tutorial/)
 
+> This is a backtracking algorithm. The basic idea being that you incrementally build a solution and discard it once you realize that it's not viable.
+
 ## How to use?
 
 ```s 
