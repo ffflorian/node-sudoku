@@ -37,6 +37,11 @@ solver.draw(solved);
 - `solveSudoku()`. Call it when you create an instance.
 - `draw(<board>)`. Call it to draw the board before and after calculate the solution.
 
+You also have the following instance properties:
+
+- `board`
+- `emptyPositions`
+
 ## Test
 
 - Just run `npm test`.
