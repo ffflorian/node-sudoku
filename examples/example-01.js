@@ -1,13 +1,13 @@
 const Sudoku = require('../index');
-const board  = '090000006\n' + 
-               '000960485\n' +
-               '000581000\n' +
-               '004000000\n' +
-               '517200900\n' +
-               '602000370\n' +
-               '100804020\n' +
-               '706000810\n' +
-               '300090000';
+const board  = '100007090\n' + 
+               '030020008\n' +
+               '009600500\n' +
+               '005300900\n' +
+               '010080002\n' +
+               '600004000\n' +
+               '300000010\n' +
+               '040000007\n' +
+               '007000300';
 
 
 const solver = new Sudoku(board);
@@ -16,5 +16,5 @@ solver.draw(solver.board);
 
 const solved = solver.solveSudoku();
 
+console.log('\n')
 solver.draw(solved);
-console.log(solved);

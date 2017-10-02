@@ -30,8 +30,10 @@ class Sudoku{
 
 	saveEmptyPositions () {
 		this.emptyPositions = [];
-		for(var i = 0; i < this.board.length; i++) {
-			for(var j = 0; j < this.board[i].length; j++) {
+		const len = this.board.length;
+		for(let i = 0; i < len; i++) {
+			const rowLen = this.board[i].length;
+			for(let j = 0; j < rowLen; j++) {
 				if(this.board[i][j] === 0) {
 					this.emptyPositions.push([i, j]);
 				}
@@ -40,7 +42,7 @@ class Sudoku{
 	}
 
 	checkRow (row, value) {
-		for(var i = 0; i < this.board[row].length; i++) {
+		for(let i = 0; i < this.board[row].length; i++) {
 			if(this.board[row][i] === value) {
 				return false;
 			}
