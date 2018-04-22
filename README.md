@@ -1,4 +1,4 @@
-# sudoku-solver
+# Sudoku solver 1.0.1
 
 [![https://travis-ci.org/jesusgn90/node-sudoku.svg?branch=master](https://travis-ci.org/jesusgn90/node-sudoku.svg?branch=master)](https://travis-ci.org/jesusgn90/node-sudoku.svg?branch=master)
 [![https://img.shields.io/npm/v/node-sudoku.svg](https://img.shields.io/npm/v/node-sudoku.svg)](https://www.npmjs.com/package/node-sudoku)
@@ -19,7 +19,8 @@ on the link bellow:
 ```
 
 ```js
-const Sudoku = require('node-sudoku');
+import Sudoku from 'node-sudoku'
+
 const board  = '090000006\n' + 
             '000960485\n' +
             '000581000\n' +
